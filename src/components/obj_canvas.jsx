@@ -45,7 +45,7 @@ class ObjCanvas extends Component {
   render() {
     return (
       <div>
-        <canvas id="tutorial" width="1000" height="500"></canvas>
+        <canvas id="tutorial" width="4000" height="500"></canvas>
       </div>
     );
   }
