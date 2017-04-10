@@ -1,4 +1,4 @@
-#Colorful Blocks - A Visual
+# Colorful Blocks - A Visual
 
 My aim with this design was to create a colorful, engaging visualization that breaks down the components of an individual economic activity.
 
@@ -12,7 +12,7 @@ Simply by glancing at a segment of the visualization, the viewer can get a sense
 
 The next step would be to make this visualization interactive, so that the user can click on a segment, column, block, or legend key to get corresponding information about the item that is selected.
 
-#Setting up 'Colorful Blocks'
+# Setting up 'Colorful Blocks'
 
 * Clone repo: $git clone https://github.com/hjmccain/colorful-blocks.git < your-new-repo-name >
 * Run 'npm install' to install dependencies
