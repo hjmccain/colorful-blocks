@@ -6,23 +6,24 @@ class Legend extends Component {
     super();
     this.state = {}
   }
+
   componentWillMount() {
     const { colorIds } = this.props;
     let colorIdKeys = Object.keys(colorIds);
+
     // activities have five-string key (e.g. 1.2.3)
     let activityKeys = colorIdKeys.filter(item => item.length === 5);
+
     // no non-activity has a five-string key
     let objKeys = colorIdKeys.filter(item => item.length !== 5);
-    let activities = activityKeys.map(key => {
-      return [key, colorIds[key]];
-    });
-    let objs = objKeys.map(key => {
-      return [key, colorIds[key]];
-    });
+
+    let activities = activityKeys.map(key => [key, colorIds[key]]);
+    let objs = objKeys.map(key => [key, colorIds[key]]);
+
     this.setState({
       activities: activities,
       objs: objs
-    })
+    });
   }
 
   render() {
@@ -49,14 +50,12 @@ class Legend extends Component {
                     <p>{obj[0]}</p>
                     <div style={{'backgroundColor': `hsl(${obj[1]}, 100%, 50%)`, 'width': '30px', 'height': '30px'}}></div>
                   </div>
-                )
-              }
-            })}
+                )}})}
           </div>
         </div>
       );
     } else {
-      return <div>boooo</div>
+      return <div></div>
     }
   }
 }
