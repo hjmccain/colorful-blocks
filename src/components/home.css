@@ -2,3 +2,25 @@
   width: 100%;
   height: 100%;
 }
+
+.legendChild {
+  display: flex;
+}
+
+.legendChild div {
+  width: 80px;
+  display: inline-block;
+  text-align: center;
+}
+
+.legend {
+  margin-left: 40px;
+  border: 2px solid black;
+  padding-bottom: 20px;
+  max-width: 965px;
+}
+
+.legend h3 {
+  padding-left: 20px;
+  margin-bottom: 0px;
+}

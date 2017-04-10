@@ -30,7 +30,7 @@ uniqueData = uniqueData
   .filter((item) => item !== "")
   .map(elem => {
     colorIds = Object.assign({}, colorIds, { [elem]: hue })
-    hue +=29;
+    hue +=49;
     return colorIds;
   });
 
