@@ -4,7 +4,7 @@ My aim with this design was to create a colorful, engaging visualization that br
 
 Each larger segment of the visualization represents an economic sector of the Seattle aerospace industry (e.g. 2.1.2).
 
-![alt text](https://github.com/hjmccain/colorful-blocks/tree/master/public/section.png "Economic sector")
+![alt text](https://github.com/hjmccain/colorful-blocks/blob/master/public/section.png)
 
 Within a segement, each column represents a sub-sector of that industry (e.g. 'Design of aircraft interiors').
 
