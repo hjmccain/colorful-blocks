@@ -1,7 +1,6 @@
 import Papa from 'papaparse';
 
 export const results = Papa.parse(`
-  id,label,Activity,Object1,Object2,Object3
   1,Aircraft ferrying,1.2.2,b,4,ii
   2,Aerospace supply chain optimization,1.1.1,,,div
   3,Aerospace equipment procurement,1.1.2,b,,div
