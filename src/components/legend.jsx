@@ -19,7 +19,6 @@ class Legend extends Component {
     let objs = objKeys.map(key => {
       return [key, colorIds[key]];
     });
-    console.log(activities);
     this.setState({
       activities: activities,
       objs: objs

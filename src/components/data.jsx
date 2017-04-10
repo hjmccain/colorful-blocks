@@ -1,5 +1,4 @@
 import { results } from './Locus_seattle_aerospace';
-console.log(results);
 
 let uniqueData = [];
 let colorIds = {};
@@ -30,7 +29,8 @@ uniqueData = uniqueData
   .filter((item) => item !== "")
   .map(elem => {
     colorIds = Object.assign({}, colorIds, { [elem]: hue })
-    hue +=49;
+    let num = Math.random() * (100 - 20) + 20;
+    hue += num;
     return colorIds;
   });
 
