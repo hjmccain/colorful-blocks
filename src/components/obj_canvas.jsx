@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { data, colorIds } from './data';
-import InfoPanel from './info_panel';
 import Legend from './legend';
 import './home.css';
 
@@ -97,7 +96,6 @@ class ObjCanvas extends Component {
     return (
       <div>
         <canvas id="tutorial" width="3500" height="500"></canvas>
-        <InfoPanel blocks={this.state.blocks} />
         <Legend colorIds={colorIds} />
       </div>
     );
