@@ -35,31 +35,26 @@ class ObjCanvas extends Component {
       let newBlock;
       let white = `hsl(0, 0%, 100%)`;
       ctx.lineWidth = 2;
+      ctx.strokeStyle = '#000000';
 
       ctx.fillStyle = data[0] ?  `hsl(${data[0]}, 100%, 50%)` : white;
       ctx.fillRect(x, y, 50, 50);
-      if (data[3].activity) {
-        ctx.strokeStyle = '#000000';
-        ctx.strokeRect(x, y, 50, 50);
-      }
+      if (data[3].activity) { ctx.strokeRect(x, y, 50, 50) };
+
       newBlock = new dataBlock(x, y, 50, 50, data[3].obj1);
       blocks.push(newBlock);
 
       ctx.fillStyle = data[1] ? `hsl(${data[1]}, 100%, 50%)` : white;
       ctx.fillRect(x, y - 50, 50, 50);
-      if (data[3].activity) {
-        ctx.strokeStyle = '#000000';
-        ctx.strokeRect(x, y - 50, 50, 50);
-      }
+      if (data[3].activity) { ctx.strokeRect(x, y - 50, 50, 50) };
+
       newBlock = new dataBlock(x, y - 50, 50, 50, data[3].obj2);
       blocks.push(newBlock);
 
       ctx.fillStyle = data[2] ? `hsl(${data[2]}, 100%, 50%)` : white;
       ctx.fillRect(x, y - 100, 50, 50);
-      if (data[3].activity) {
-        ctx.strokeStyle = '#000000';
-        ctx.strokeRect(x, y - 100, 50, 50);
-      }
+      if (data[3].activity) { ctx.strokeRect(x, y - 100, 50, 50) };
+
       newBlock = new dataBlock(x, y - 100, 50, 50, data[3].obj3);
       blocks.push(newBlock);
 
