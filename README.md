@@ -20,6 +20,6 @@ The next step would be to make this visualization interactive, so that the user 
 
 # Setting up 'Colorful Blocks'
 
-* Clone repo: $git clone https://github.com/hjmccain/colorful-blocks.git < your-new-repo-name >
+* Clone repo: `$git clone https://github.com/hjmccain/colorful-blocks.git < your-new-repo-name >`
 * Run 'npm install' to install dependencies
 * To run the server, run 'yarn start'
