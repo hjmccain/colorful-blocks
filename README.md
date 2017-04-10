@@ -6,7 +6,7 @@ Each larger segment of the visualization represents an economic sector of the Se
 
 Within a segement, each column represents a sub-sector of that industry (e.g. 'Design of aircraft interiors').
 
-With each column, each of the three colored blocks represents a component of the economic object associated with the sub-sector of the industry (e.g. 'ii' or 'div').
+With each column, each of the three colored blocks represents a component of the economic object associated with the sub-sector of the industry (e.g. 'b' or 'div').
 
 Simply by glancing at a segment of the visualization, the viewer can get a sense of the diversity of the objects that make up an economic sector. Looking closer, the viewer can use the legend to determine which specific objects make up a given activity.
 
